@@ -7,8 +7,10 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import violentninjad.technologicalcraft.init.ModItems;
 import violentninjad.technologicalcraft.proxy.IProxy;
 import violentninjad.technologicalcraft.reference.Proxies;
+import violentninjad.technologicalcraft.util.LogHelper;
 
 @Mod(modid = TechnologicalCraft.MOD_ID, name = TechnologicalCraft.MOD_NAME, version = TechnologicalCraft.MOD_VERSION)
 public class TechnologicalCraft {
@@ -27,6 +29,10 @@ public class TechnologicalCraft {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+
+        ModItems.init();
+
+        LogHelper.info("This is Technological Craft! An awesome Tech Mod.");
 
     }
 
