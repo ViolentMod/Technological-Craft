@@ -9,6 +9,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import violentninjad.technologicalcraft.init.ModBlocks;
 import violentninjad.technologicalcraft.init.ModItems;
+import violentninjad.technologicalcraft.init.ModTools;
 import violentninjad.technologicalcraft.init.TCOreDict;
 import violentninjad.technologicalcraft.proxy.IProxy;
 import violentninjad.technologicalcraft.reference.Proxies;
@@ -35,6 +36,8 @@ public class TechnologicalCraft {
         TCOreDict.registerEntries();
 
         ModItems.init();
+
+        ModTools.registerTools();
 
         ModBlocks.initialiseBlocks();
 

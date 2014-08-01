@@ -3,3 +3,6 @@ item.techcraft:chromeIngot.name=Chrome Ingot
 
 #Blocks
 tile.techcraft:chromeBlock.name=Chrome Block
+
+#Tools
+item.techcraft:chromePickaxe.name=Chrome Pickaxe
