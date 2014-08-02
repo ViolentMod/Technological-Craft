@@ -46,6 +46,8 @@ public class TechnologicalCraft {
 
         ModBlocks.initialiseBlocks();
 
+        proxy.registerTileEntities();
+
         LogHelper.info("This is Technological Craft! An awesome Tech Mod.");
 
     }
@@ -53,6 +55,8 @@ public class TechnologicalCraft {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+
+        proxy.registerGuiHandler();
 
         Recipes.initialiseFurnaceRecipes();
 

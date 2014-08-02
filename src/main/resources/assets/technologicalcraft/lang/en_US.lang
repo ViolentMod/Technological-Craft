@@ -4,6 +4,8 @@ item.technologicalcraft:chromeIngot.name=Chrome Ingot
 #Blocks
 tile.technologicalcraft:chromeBlock.name=Chrome Block
 tile.technologicalcraft:chromeOreBlock.name=Chrome Ore
+tile.chromeProcessor.name=Chrome Processor
+tile.chromeProccessorActive.name=Chrome Processor - Active
 
 #Tools
 item.technologicalcraft:chromePickaxe.name=Chrome Pickaxe
