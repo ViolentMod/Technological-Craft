@@ -31,8 +31,6 @@ public class TechnologicalCraft {
     public void preInit(FMLPreInitializationEvent event)
     {
 
-        TCOreDict.registerEntries();
-
         TCWorld.init();
 
         ModItems.init();
@@ -50,6 +48,10 @@ public class TechnologicalCraft {
     {
 
         Recipes.initialiseFurnaceRecipes();
+
+        Recipes.initialiseCraftingRecipes();
+
+        TCOreDict.registerEntries();
 
     }
 

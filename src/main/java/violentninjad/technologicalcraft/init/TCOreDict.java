@@ -8,5 +8,6 @@ public class TCOreDict {
     public static void registerEntries()
     {
         OreDictionary.registerOre("ingotChrome", ModItems.chromeIngot);
+        OreDictionary.registerOre("oreChrome", ModBlocks.chromeOreBlock);
     }
 }

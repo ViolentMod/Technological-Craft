@@ -18,7 +18,7 @@ public class ItemToolChromePickaxe extends ItemToolTC
 
     public ItemToolChromePickaxe()
     {
-        super(8.0F, Material.Tools.CHROME, blocksEffectiveAgainst);
+        super(0.5F, Material.Tools.CHROME, blocksEffectiveAgainst);
         this.setUnlocalizedName("chromePickaxe");
     }
 

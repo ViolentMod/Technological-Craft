@@ -7,3 +7,6 @@ tile.techcraft:chromeOreBlock.name=Chrome Ore
 
 #Tools
 item.techcraft:chromePickaxe.name=Chrome Pickaxe
+item.techcraft:chromeShovel.name=Chrome Shovel
+item.techcraft:chromeAxe.name=Chrome Axe
+item.techcraft:chromeSword.name=Chrome Sword
