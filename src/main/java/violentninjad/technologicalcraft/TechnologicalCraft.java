@@ -14,6 +14,7 @@ import violentninjad.technologicalcraft.init.TCOreDict;
 import violentninjad.technologicalcraft.proxy.IProxy;
 import violentninjad.technologicalcraft.reference.Proxies;
 import violentninjad.technologicalcraft.util.LogHelper;
+import violentninjad.technologicalcraft.world.TCWorld;
 
 @Mod(modid = TechnologicalCraft.MOD_ID, name = TechnologicalCraft.MOD_NAME, version = TechnologicalCraft.MOD_VERSION)
 public class TechnologicalCraft {
@@ -34,6 +35,8 @@ public class TechnologicalCraft {
     {
 
         TCOreDict.registerEntries();
+
+        TCWorld.init();
 
         ModItems.init();
 
