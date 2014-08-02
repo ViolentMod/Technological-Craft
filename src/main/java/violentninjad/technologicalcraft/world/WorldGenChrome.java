@@ -7,6 +7,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
+import violentninjad.technologicalcraft.configuration.TCConfigHandler;
 import violentninjad.technologicalcraft.init.ModBlocks;
 
 import java.util.Random;
@@ -55,7 +56,14 @@ public class WorldGenChrome implements IWorldGenerator
     private void generateSurface(Random random, int chunkX, int chunkZ, World world)
     {
 
-        addOre(ModBlocks.chromeOreBlock, Blocks.stone, random, world, chunkX, chunkZ, 5, 25, 1, 12, 3);
+        if (TCConfigHandler.configGenChromeOre == true)
+        {
+            addOre(ModBlocks.chromeOreBlock, Blocks.stone, random, world, chunkX, chunkZ, 5, 25, 1, 12, 3);
+        }else{
+            ;
+        }
+
+
 
     }
 

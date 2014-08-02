@@ -1,0 +1,12 @@
+#Items
+item.technologicalcraft:chromeIngot.name=Chrome Ingot
+
+#Blocks
+tile.technologicalcraft:chromeBlock.name=Chrome Block
+tile.technologicalcraft:chromeOreBlock.name=Chrome Ore
+
+#Tools
+item.technologicalcraft:chromePickaxe.name=Chrome Pickaxe
+item.technologicalcraft:chromeShovel.name=Chrome Shovel
+item.technologicalcraft:chromeAxe.name=Chrome Axe
+item.technologicalcraft:chromeSword.name=Chrome Sword
