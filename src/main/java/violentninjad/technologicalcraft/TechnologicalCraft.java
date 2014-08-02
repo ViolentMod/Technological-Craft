@@ -7,10 +7,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import violentninjad.technologicalcraft.init.ModBlocks;
-import violentninjad.technologicalcraft.init.ModItems;
-import violentninjad.technologicalcraft.init.ModTools;
-import violentninjad.technologicalcraft.init.TCOreDict;
+import violentninjad.technologicalcraft.init.*;
 import violentninjad.technologicalcraft.proxy.IProxy;
 import violentninjad.technologicalcraft.reference.Proxies;
 import violentninjad.technologicalcraft.util.LogHelper;
@@ -51,6 +48,8 @@ public class TechnologicalCraft {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+
+        Recipes.initialiseFurnaceRecipes();
 
     }
 
